@@ -6,7 +6,8 @@
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Special+Elite&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
-    <nav class= 'left-nav'>
+  <body>
+      <nav class= 'left-nav'>
       <section>
         <img></img>
         <h1>UserName</h1>
@@ -37,56 +38,56 @@
       <section class='admin-nav'>
         <h1>Admin</h1>
         <div>
-          <h1>Users/h1>
-          <img></img>
-        </div>
-        <div>
-          <h1>Locations</h1>
-          <img></img>
-        </div>
-        <div>
-          <h1>Workflows</h1>
-          <img></img>
-        </div>
-        <div>
-          <h1>Job Boards</h1>
-          <img></img>
-        </div>
-        <div>
-          <h1>Social</h1>
-          <img></img>
-        </div>
-      </section>
-      <section class='nav-options'>
-        <h1>Categories</h1>
-        <div>Administrative</div>
-        <div>Design</div>
-        <div>Executive</div>
-        <div>Human Resources</div>
-      </section>
-    </nav>
-    <header>
-      <button class="hide-nav"></button>
-      <input>Search for a job,task or resume</input>
-      <button class= "add-person">
-        <img></img>
-      </button>
-      <button class="search-task-button">
-        <img></img>
-      </button>
-      <button class="icon-button">
-        <img></img>
-      </button>
-    </header>
-    <body>
-        <main class="hover-active" >
+          <h1>Users</h1>
+            <img></img>
+          </div>
+          <div>
+            <h1>Locations</h1>
+            <img></img>
+          </div>
+          <div>
+            <h1>Workflows</h1>
+            <img></img>
+          </div>
+          <div>
+            <h1>Job Boards</h1>
+            <img></img>
+          </div>
+          <div>
+            <h1>Social</h1>
+            <img></img>
+          </div>
+        </section>
+        <section class='nav-options'>
+          <h1>Categories</h1>
+          <div>Administrative</div>
+          <div>Design</div>
+          <div>Executive</div>
+          <div>Human Resources</div>
+        </section>
+      </nav>
+      <main class="hover-active" >
+        <header>
+          <button class="hide-nav"></button>
+          <input placeholder= 'Search for a job,task or resume'></input>
+          <button class= "add-person">
+            <img></img>
+          </button>
+          <button class="search-task-button">
+            <img></img>
+          </button>
+          <button class="icon-button">
+            <img></img>
+          </button>
+        </header>
           <section class="data-display">
             <button>Totals -</button>
             <img></img>
             <button>Applicants/Day</button>
           </section>
+        <section class=job-info-container>
           <article class=job-info-form>
-            <header>Job Description
+            <header class='form-header'>Job Description
             <button>Edit</button>
             </header>
             <div>Position Title</div>
@@ -99,9 +100,11 @@
             <div>Approved Salary</div>
           </article>
           <section class=social-nav>
-            <button>Post to Facebook</button>
-            <button>Tweet this Job</button>
-            <button>Post to Linkedin</button>
+            <div class='social-buttons'>
+              <button class='facebook-button'>Post to Facebook</button>
+              <button class='tweet-button'>Tweet this Job</button>
+              <button class='linkedin-button'>Post to Linkedin</button>
+            </div>
             <div>
               <label for='job-link'>Link to this job</label>
               <input name='job-link'></input>
@@ -117,7 +120,7 @@
               <input name='email-upload'></input>
             </div>
             </section>
-
-        </main>
+          </section>
+      </main>
     </body>
   <script src="scripts.js"></script>

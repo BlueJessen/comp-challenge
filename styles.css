@@ -1,0 +1,85 @@
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+}
+
+h1 {
+  margin: 0;
+}
+
+header {
+  background-color: #ffffff;
+  height: 10vh;
+  width: inherit;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #ecf2f7;
+}
+
+button {
+  color: #ffffff;
+  border: 0;
+}
+
+.form-header {
+  background-color: #6b7f97;
+  width: 
+}
+
+.social-buttons > * {
+    width: 20vw;
+    padding: 3%;
+    margin: 5px;
+}
+
+.facebook-button {
+  background-color: #4073c9;
+}
+
+.tweet-button {
+  background-color: #00aef5;
+}
+
+.linkedin-button {
+  background-color: #0083c1;
+}
+
+.job-info-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  height: 70vh;
+}
+
+.job-info-form {
+  color: #6b7f97
+  width: 65vw;
+  padding: 3vw;
+}
+
+.left-nav {
+  width: 10vw;
+  margin: 0px;
+  color: #8c9aae;
+  background-color: #324054;
+}
+
+.social-nav {
+width: 35vw;
+padding: 3vw;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+}
