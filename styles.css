@@ -30,6 +30,7 @@ button {
   padding: 1vw;
   border: 0;
 }
+
 label {
   display:block;
 }
@@ -38,14 +39,36 @@ input {
   height: 4vh;
 }
 
+.search-bar-buttons {
+  background-color: #ffffff;
+  border: 2px solid #c8ccd2;
+}
+
 .form-header {
   background-color: #6b7f97;
-  width:
+}
+
+.search-bar {
+  width: 65vw;
+  height: 9.3vh;
+  border: 2px solid #c8ccd2;
+  background-image: url('./assets/search.svg');
+  background-repeat: no-repeat;
+  background-size: 5vh;
+  background-position: 1% 50%;
+  text-indent: 4vw;
+}
+
+.search-bar-container {
+  display:flex;
+  align-items: stretch;
 }
 
 .nav-section {
   display: flex;
   margin: .05vh;
+  text-transform: uppercase;
+  font-size: .7rem;
 }
 
 .social-buttons > * {
@@ -55,10 +78,15 @@ input {
 }
 
 .widget-buttons {
-  fill: #6b7f97;
-  width: 3vw;
+  width: 3.5vw;
   height: 3vh;
 }
+
+.search-bar-buttons:hover {
+  cursor: pointer;
+  background-color: #00a7ff;
+}
+
 .nav-icons {
   display: block
 }

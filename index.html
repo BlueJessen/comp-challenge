@@ -4,7 +4,7 @@
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -68,16 +68,18 @@
         </section>
       </nav>
       <main class="hover-active" >
-        <header>
-          <button class="hide-nav"></button>
-          <input placeholder= 'Search for a job,task or resume'></input>
-          <button class= "add-person">
+        <header class= 'search-bar-container'>
+          <button class="hide-nav search-bar-buttons">
+            <img class='widget-buttons' src='./assets/menu-burger.svg' alt='menu burger'></img>
+          </button>
+          <input placeholder= 'Search for a job,task or resume' class='search-bar'></input>
+          <button class= "search-bar-buttons">
             <img class='widget-buttons' src='./assets/user-add.svg' alt='add user'></img>
           </button>
-          <button class="search-task-button">
-            <img></img>
+          <button class="search-bar-buttons">
+            <img class='widget-buttons' src='./assets/search-alt.svg' alt='search task'></img>
           </button>
-          <button class="icon-button">
+          <button class="search-bar-buttons">
             <img class='widget-buttons' src='./assets/apps-free-icon-font.svg' alt='icon squares'></img>
           </button>
         </header>
