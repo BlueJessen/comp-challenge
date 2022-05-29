@@ -1,4 +1,5 @@
 html {
+  font-family: 'Archivo', sans-serif;
   width: 100vw;
   height: 100vh;
 }
@@ -25,7 +26,16 @@ main {
 
 button {
   color: #ffffff;
+  background-color: #00bdc5;
+  padding: 1vw;
   border: 0;
+}
+label {
+  display:block;
+}
+
+input {
+  height: 4vh;
 }
 
 .form-header {
@@ -40,8 +50,7 @@ button {
 }
 
 .widget-buttons {
-  stroke: blue;
-  fill: blue;
+  fill: #6b7f97;
   width: 3vw;
   height: 3vh;
 }
@@ -61,14 +70,14 @@ button {
 .job-info-container {
   display: flex;
   justify-content: space-between;
-  width: 90vw;
+  width: 85vw;
   height: 70vh;
 }
-
 .job-info-form {
-  color: #6b7f97
-  width: 65vw;
-  padding: 3vw;
+  background-color: #ffffff;
+  color: #6b7f97;
+  width: 35vw;
+  margin-left: 5vw;
 }
 
 .left-nav {
