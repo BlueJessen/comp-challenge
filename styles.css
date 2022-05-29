@@ -43,6 +43,11 @@ input {
   width:
 }
 
+.nav-section {
+  display: flex;
+  margin: .05vh;
+}
+
 .social-buttons > * {
     width: 20vw;
     padding: 3%;
@@ -54,7 +59,9 @@ input {
   width: 3vw;
   height: 3vh;
 }
-
+.nav-icons {
+  display: block
+}
 .facebook-button {
   background-color: #4073c9;
 }
