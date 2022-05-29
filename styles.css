@@ -30,13 +30,20 @@ button {
 
 .form-header {
   background-color: #6b7f97;
-  width: 
+  width:
 }
 
 .social-buttons > * {
     width: 20vw;
     padding: 3%;
     margin: 5px;
+}
+
+.widget-buttons {
+  stroke: blue;
+  fill: blue;
+  width: 3vw;
+  height: 3vh;
 }
 
 .facebook-button {
