@@ -6,9 +6,11 @@ html {
 
 body {
   display: flex;
+  margin: 0;
 }
 
 h1 {
+  text-transform: uppercase;
   margin: 0;
 }
 
@@ -39,6 +41,9 @@ input {
   height: 4vh;
 }
 
+h2{
+  font-size: .7rem;
+}
 .search-bar-buttons {
   background-color: #ffffff;
   border: 2px solid #c8ccd2;
@@ -58,7 +63,10 @@ input {
   background-position: 1% 50%;
   text-indent: 4vw;
 }
-
+.profile-img {
+  width: 5vw;
+  height: 10vh;
+}
 .search-bar-container {
   display:flex;
   align-items: stretch;
@@ -117,6 +125,7 @@ input {
 
 .left-nav {
   width: 10vw;
+  height: 100vh;
   margin: 0px;
   color: #8c9aae;
   background-color: #324054;
