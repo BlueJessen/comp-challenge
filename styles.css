@@ -32,9 +32,17 @@ button {
   padding: 1vw;
   border: 0;
 }
+button:hover{
+  cursor:pointer;
+}
 
 label {
   display:block;
+}
+
+.nav-section:hover {
+  cursor: pointer;
+  filter: brightness(150%);
 }
 
 input {
@@ -64,8 +72,15 @@ h2{
   text-indent: 4vw;
 }
 .profile-img {
-  width: 5vw;
-  height: 10vh;
+  width: 7vw;
+  height: 13vh;
+}
+
+.user-info {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: lowercase;
 }
 .search-bar-container {
   display:flex;
@@ -81,7 +96,7 @@ h2{
 
 .social-buttons > * {
     width: 20vw;
-    padding: 3%;
+    padding: 5%;
     margin: 5px;
 }
 
@@ -91,8 +106,11 @@ h2{
 }
 
 .search-bar-buttons:hover {
-  cursor: pointer;
   background-color: #00a7ff;
+}
+
+.search-bar-buttons:hover > * {
+  filter: brightness(150%);
 }
 
 .nav-icons {
@@ -116,11 +134,38 @@ h2{
   width: 85vw;
   height: 70vh;
 }
+
 .job-info-form {
   background-color: #ffffff;
   color: #6b7f97;
   width: 35vw;
   margin-left: 5vw;
+  margin-bottom: -10vh;
+  align-content: flex-start;
+  text-indent: 2vw;
+}
+
+.data-imgs {
+  width: 30vw;
+  height: 20vh;
+}
+
+.data-display {
+  display: flex;
+}
+
+.graph-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.graph-buttons {
+  background-color: white;
+  color: #6b7f97;
+  border: solid 2px #c8ccd2;
+  border-radius: 20px;
+  width: 10vw;
 }
 
 .left-nav {
@@ -132,7 +177,7 @@ h2{
 }
 
 .social-nav {
-width: 35vw;
+width: 20vw;
 padding: 3vw;
 display: flex;
 flex-direction: column;
